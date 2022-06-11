@@ -18,9 +18,15 @@ if has("nvim")
   Plug 'folke/lsp-colors.nvim'
   Plug 'L3MON4D3/LuaSnip'
   Plug 'hrsh7th/cmp-nvim-lsp'
-  Plug 'vim-airline/vim-airline'
+  Plug 'kien/ctrlp.vim'
+  Plug 'airblade/vim-gitgutter'
+  Plug 'itchyny/lightline.vim'
+  Plug 'itchyny/vim-gitbranch'
+  Plug 'nvim-lua/plenary.nvim'
+  Plug 'sindrets/diffview.nvim'
   Plug 'hrsh7th/cmp-buffer'
   Plug 'preservim/nerdtree'
+  Plug 'Xuyuanp/nerdtree-git-plugin'
   Plug 'hrsh7th/nvim-cmp'
   Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
   Plug 'kyazdani42/nvim-web-devicons'
@@ -31,6 +37,9 @@ if has("nvim")
   Plug 'windwp/nvim-autopairs'
   Plug 'windwp/nvim-ts-autotag'
   Plug 'lighthaus-theme/vim-lighthaus'
+  Plug 'kyazdani42/nvim-web-devicons' " for file icons
+  Plug 'kyazdani42/nvim-tree.lua'
+  Plug 'neoclide/coc.nvim'
 endif
 
 Plug 'groenewege/vim-less', { 'for': 'less' }

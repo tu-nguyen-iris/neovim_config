@@ -141,9 +141,10 @@ if exists("&termguicolors") && exists("&winblend")
   set background=dark
   " Use NeoSolarized
   let g:neosolarized_termtrans=1
-  runtime ./colors/NeoSolarized.vim
+  "runtime ./colors/NeoSolarized.vim
   "colorscheme NeoSolarized
   colorscheme lighthaus
+  let g:airline_theme='lighthaus'
 endif
 
 "}}}
