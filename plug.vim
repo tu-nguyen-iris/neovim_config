@@ -41,9 +41,11 @@ if has("nvim")
   Plug 'kyazdani42/nvim-tree.lua'
   Plug 'neoclide/coc.nvim'
   Plug 'sharkdp/fd'
+  Plug 'simeji/winresizer'
   Plug 'BurntSushi/ripgrep'
   Plug 'folke/tokyonight.nvim'
   Plug 'projekt0n/github-nvim-theme'
+  Plug 'morhetz/gruvbox'
 endif
 
 Plug 'groenewege/vim-less', { 'for': 'less' }
