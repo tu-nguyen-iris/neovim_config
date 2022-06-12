@@ -40,6 +40,10 @@ if has("nvim")
   Plug 'kyazdani42/nvim-web-devicons' " for file icons
   Plug 'kyazdani42/nvim-tree.lua'
   Plug 'neoclide/coc.nvim'
+  Plug 'sharkdp/fd'
+  Plug 'BurntSushi/ripgrep'
+  Plug 'folke/tokyonight.nvim'
+  Plug 'projekt0n/github-nvim-theme'
 endif
 
 Plug 'groenewege/vim-less', { 'for': 'less' }
