@@ -8,6 +8,9 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
 
 if has("nvim")
+  " Terminal
+  Plug 'voldikss/vim-floaterm'                  " Float terminal
+  Plug 'xiyaowong/nvim-transparent'
   Plug 'hoob3rt/lualine.nvim'
   Plug 'kristijanhusak/defx-git'
   Plug 'kristijanhusak/defx-icons'
@@ -20,8 +23,9 @@ if has("nvim")
   Plug 'hrsh7th/cmp-nvim-lsp'
   Plug 'kien/ctrlp.vim'
   Plug 'airblade/vim-gitgutter'
-  Plug 'itchyny/lightline.vim'
-  Plug 'itchyny/vim-gitbranch'
+  "Plug 'itchyny/lightline.vim'
+  "Plug 'itchyny/vim-gitbranch'
+  Plug 'vim-airline/vim-airline'
   Plug 'nvim-lua/plenary.nvim'
   Plug 'sindrets/diffview.nvim'
   Plug 'hrsh7th/cmp-buffer'
@@ -46,6 +50,8 @@ if has("nvim")
   Plug 'folke/tokyonight.nvim'
   Plug 'projekt0n/github-nvim-theme'
   Plug 'morhetz/gruvbox'
+  Plug 'fcpg/vim-orbital'
+  Plug 'bluz71/vim-moonfly-colors'
 endif
 
 Plug 'groenewege/vim-less', { 'for': 'less' }

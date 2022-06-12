@@ -25,7 +25,7 @@ set scrolloff=10
 set expandtab
 set clipboard=unnamedplus
 "let loaded_matchparen = 1
-set shell=fish
+"set shell=fish
 set backupskip=/tmp/*,/private/tmp/*
 
 " incremental substitution (neovim)
@@ -65,6 +65,7 @@ autocmd InsertLeave * set nopaste
 set formatoptions+=r
 
 "}}}
+"
 
 " Highlights "{{{
 " ---------------------------------------------------------------------
@@ -115,6 +116,7 @@ autocmd FileType yaml setlocal shiftwidth=2 tabstop=2
 " ---------------------------------------------------------------------
 runtime ./plug.vim
 runtime ./telescope.lua
+runtime ./terminal.vim
 if has("unix")
   let s:uname = system("uname -s")
   " Do Mac stuff
@@ -139,13 +141,13 @@ if exists("&termguicolors") && exists("&winblend")
   set winblend=0
   set wildoptions=pum
   set pumblend=5
-  "set background=dark
-  " Use NeoSolarized
+  set background=dark
+  "" Use NeoSolarized
   "let g:neosolarized_termtrans=1
   "runtime ./colors/NeoSolarized.vim
   "colorscheme NeoSolarized
   "colorscheme lighthaus
-  let g:airline_theme='lighthaus'
+  "let g:airline_theme='lighthaus'
   " Load the colorscheme
   " Example config in VimScript
   "let g:tokyonight_style = "night"
@@ -163,15 +165,17 @@ if exists("&termguicolors") && exists("&winblend")
   "let g:lightline = {'colorscheme': 'tokyonight'}
   "let g:gruvbox_transparent_bg=0
   "let g:gruvbox_italic=1
-  :let g:gruvbox_transparent_bg=0
-  :let g:gruvbox_italic=1
-  :let g:gruvbox_italicize_strings=1
-  :let g:gruvbox_italicize_comments=1
-  :let g:gruvbox_bold=1
-  :let g:gruvbox_contrast_dark='hard'
-  set background=dark
-  colorscheme gruvbox
-  :highlight Normal ctermbg=050014 " Color to match lavandula theme
+  ":let g:gruvbox_transparent_bg=0
+  ":let g:gruvbox_italic=1
+  ":let g:gruvbox_italicize_strings=1
+  ":let g:gruvbox_italicize_comments=1
+  ":let g:gruvbox_bold=1
+  ":let g:gruvbox_contrast_dark='hard'
+  "set background=dark
+  "colorscheme gruvbox
+  ":highlight Normal ctermbg=050014 " Color to match lavandula theme
+  "colorscheme orbital
+  colorscheme moonfly
 endif
 
 "}}}
@@ -182,3 +186,6 @@ set exrc
 "}}}
 
 " vim: set foldmethod=marker foldlevel=0:
+" Formating code 
+vmap <leader>f  <Plug>(coc-format-selected)
+nmap <leader>f  <Plug>(coc-format-selected)
