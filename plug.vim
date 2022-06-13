@@ -8,6 +8,8 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
 
 if has("nvim")
+  Plug 'kyoz/purify', { 'rtp': 'vim' }
+  Plug 'joshdick/onedark.vim'
   " Terminal
   Plug 'voldikss/vim-floaterm'                  " Float terminal
   Plug 'xiyaowong/nvim-transparent'

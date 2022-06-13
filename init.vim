@@ -117,6 +117,7 @@ autocmd FileType yaml setlocal shiftwidth=2 tabstop=2
 runtime ./plug.vim
 runtime ./telescope.lua
 runtime ./terminal.vim
+runtime ./theme.vim
 if has("unix")
   let s:uname = system("uname -s")
   " Do Mac stuff
@@ -133,50 +134,6 @@ runtime ./maps.vim
 
 " Syntax theme "{{{
 " ---------------------------------------------------------------------
-
-" true color
-if exists("&termguicolors") && exists("&winblend")
-  syntax enable
-  set termguicolors
-  set winblend=0
-  set wildoptions=pum
-  set pumblend=5
-  set background=dark
-  "" Use NeoSolarized
-  "let g:neosolarized_termtrans=1
-  "runtime ./colors/NeoSolarized.vim
-  "colorscheme NeoSolarized
-  "colorscheme lighthaus
-  "let g:airline_theme='lighthaus'
-  " Load the colorscheme
-  " Example config in VimScript
-  "let g:tokyonight_style = "night"
-  "let g:tokyonight_italic_functions = 1
-  "let g:tokyonight_sidebars = [ "qf", "vista_kind", "terminal", "packer" ]
-  " Change the "hint" color to the "orange" color, and make the "error" color bright red
-  "let g:tokyonight_colors = {
-  ""\ 'hint': 'orange',
-  ""\ 'error': '#ff0000'
-   "" \ }
-
-  " Load the colorscheme
-  "colorscheme github_dark
-  " colorscheme tokyonight 
-  "let g:lightline = {'colorscheme': 'tokyonight'}
-  "let g:gruvbox_transparent_bg=0
-  "let g:gruvbox_italic=1
-  ":let g:gruvbox_transparent_bg=0
-  ":let g:gruvbox_italic=1
-  ":let g:gruvbox_italicize_strings=1
-  ":let g:gruvbox_italicize_comments=1
-  ":let g:gruvbox_bold=1
-  ":let g:gruvbox_contrast_dark='hard'
-  "set background=dark
-  "colorscheme gruvbox
-  ":highlight Normal ctermbg=050014 " Color to match lavandula theme
-  "colorscheme orbital
-  colorscheme moonfly
-endif
 
 "}}}
 

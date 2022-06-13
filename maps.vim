@@ -112,8 +112,6 @@ nnoremap <leader>fb <cmd>Telescope buffers<cr>
 nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 
 
-"Theme
-let g:transparent_enabled = v:true
 " Terminal 
 "nnoremap <silent><c-t> <Cmd>exe v:count1 . "ToggleTerm"<CR>
 "inoremap <silent><c-t> <Esc><Cmd>exe v:count1 . "ToggleTerm"<CR>
