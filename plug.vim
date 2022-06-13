@@ -8,8 +8,9 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
 
 if has("nvim")
+  Plug 'TimUntersberger/neogit'
+  Plug 'f-person/git-blame.nvim'
   Plug 'kyoz/purify', { 'rtp': 'vim' }
-  Plug 'joshdick/onedark.vim'
   " Terminal
   Plug 'voldikss/vim-floaterm'                  " Float terminal
   Plug 'xiyaowong/nvim-transparent'
@@ -25,8 +26,6 @@ if has("nvim")
   Plug 'hrsh7th/cmp-nvim-lsp'
   Plug 'kien/ctrlp.vim'
   Plug 'airblade/vim-gitgutter'
-  "Plug 'itchyny/lightline.vim'
-  "Plug 'itchyny/vim-gitbranch'
   Plug 'vim-airline/vim-airline'
   Plug 'nvim-lua/plenary.nvim'
   Plug 'sindrets/diffview.nvim'
@@ -49,11 +48,9 @@ if has("nvim")
   Plug 'sharkdp/fd'
   Plug 'simeji/winresizer'
   Plug 'BurntSushi/ripgrep'
-  Plug 'folke/tokyonight.nvim'
-  Plug 'projekt0n/github-nvim-theme'
-  Plug 'morhetz/gruvbox'
   Plug 'fcpg/vim-orbital'
-  Plug 'bluz71/vim-moonfly-colors'
+  Plug 'ryanoasis/vim-devicons'
+  Plug 'airblade/vim-gitgutter'
 endif
 
 Plug 'groenewege/vim-less', { 'for': 'less' }

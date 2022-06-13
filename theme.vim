@@ -29,6 +29,13 @@ if exists("&termguicolors") && exists("&winblend")
   colorscheme purify
   hi Normal guibg=#252834 ctermbg=234 "---- Place this after you set the colorscheme
   let g:transparent_enabled = v:false
-
+  "Git gutter 
+  highlight GitGutterAdd    guifg=#009900 ctermfg=Green
+  highlight GitGutterChange guifg=#bbbb00 ctermfg=Yellow
+  highlight GitGutterDelete guifg=#ff2222 ctermfg=Red
+  nmap ]h <Plug>(GitGutterNextHunk)
+  nmap [h <Plug>(GitGutterPrevHunk)
+  let g:gitgutter_enable = 1
+  let g:gitgutter_map_keys = 0
 endif
 

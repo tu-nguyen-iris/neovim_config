@@ -115,3 +115,17 @@ nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 " Terminal 
 "nnoremap <silent><c-t> <Cmd>exe v:count1 . "ToggleTerm"<CR>
 "inoremap <silent><c-t> <Esc><Cmd>exe v:count1 . "ToggleTerm"<CR>
+"Nert tree config 
+  "
+let g:NERDTreeGitStatusWithFlags = 1
+let g:NERDTreeIgnore = ['^node_modules$']
+let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
+" coc config
+let g:coc_global_extensions = [
+  \ 'coc-snippets',
+  \ 'coc-pairs',
+  \ 'coc-tsserver',
+  \ 'coc-eslint', 
+  \ 'coc-prettier', 
+  \ 'coc-json', 
+  \ ]
