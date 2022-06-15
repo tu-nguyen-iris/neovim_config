@@ -131,4 +131,7 @@ let g:coc_global_extensions = [
   \ ]
 
 nnoremap <Esc> :nohlsearch<CR>
-
+" key mappings example
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gD <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)

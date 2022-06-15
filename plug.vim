@@ -46,6 +46,7 @@ if has("nvim")
   Plug 'kyazdani42/nvim-web-devicons' " for file icons
   Plug 'kyazdani42/nvim-tree.lua'
   Plug 'neoclide/coc.nvim'
+  Plug 'puremourning/vimspector'
   Plug 'sharkdp/fd'
   Plug 'simeji/winresizer'
   Plug 'BurntSushi/ripgrep'
