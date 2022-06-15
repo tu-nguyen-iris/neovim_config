@@ -129,3 +129,6 @@ let g:coc_global_extensions = [
   \ 'coc-prettier', 
   \ 'coc-json', 
   \ ]
+
+nnoremap <Esc> :nohlsearch<CR>
+
