@@ -8,6 +8,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
 
 if has("nvim")
+  Plug 'tibabit/vim-templates'
   Plug 'TimUntersberger/neogit'
   Plug 'f-person/git-blame.nvim'
   Plug 'kyoz/purify', { 'rtp': 'vim' }
@@ -51,6 +52,9 @@ if has("nvim")
   Plug 'fcpg/vim-orbital'
   Plug 'ryanoasis/vim-devicons'
   Plug 'airblade/vim-gitgutter'
+  Plug 'mxw/vim-jsx'
+  Plug 'pangloss/vim-javascript'
+  Plug 'dikiaap/minimalist'
 endif
 
 Plug 'groenewege/vim-less', { 'for': 'less' }

@@ -26,7 +26,8 @@ if exists("&termguicolors") && exists("&winblend")
     "
 
   syntax on " This is required
-  colorscheme purify
+  "colorscheme purify
+  colorscheme minimalist
   hi Normal guibg=#252834 ctermbg=234 "---- Place this after you set the colorscheme
   let g:transparent_enabled = v:false
   "Git gutter 
@@ -37,5 +38,8 @@ if exists("&termguicolors") && exists("&winblend")
   nmap [h <Plug>(GitGutterPrevHunk)
   let g:gitgutter_enable = 1
   let g:gitgutter_map_keys = 0
+  "Live template 
+  let g:tmpl_search_paths = ['./template/template.template','./template/tsx.template']
+  let g:tmpl_author_email = 'tunguyenqn1998@gmail.com'
 endif
 
