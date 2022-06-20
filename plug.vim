@@ -8,6 +8,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
 
 if has("nvim")
+  Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
   Plug 'tibabit/vim-templates'
   Plug 'TimUntersberger/neogit'
   Plug 'f-person/git-blame.nvim'
