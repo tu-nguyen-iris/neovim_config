@@ -57,6 +57,8 @@ if has("nvim")
   Plug 'mxw/vim-jsx'
   Plug 'pangloss/vim-javascript'
   Plug 'dikiaap/minimalist'
+  Plug 'numToStr/Comment.nvim'
+  Plug 'folke/tokyonight.nvim'
 endif
 
 Plug 'groenewege/vim-less', { 'for': 'less' }

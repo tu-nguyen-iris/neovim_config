@@ -27,8 +27,15 @@ if exists("&termguicolors") && exists("&winblend")
 
   syntax on " This is required
   "colorscheme purify
-  colorscheme minimalist
+  "colorscheme minimalist
+  "Configtion for Theme tokyonight_italic_functions
+
+  colorscheme tokyonight
+  " Vim Script
+  let g:lightline = {'colorscheme': 'tokyonight'}
+  let g:tokyonight_style = 'night'
   hi Normal guibg=#252834 ctermbg=234 "---- Place this after you set the colorscheme
+
   let g:transparent_enabled = v:false
   "Git gutter 
   highlight GitGutterAdd    guifg=#009900 ctermfg=Green
