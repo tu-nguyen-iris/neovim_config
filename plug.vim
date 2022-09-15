@@ -59,6 +59,10 @@ if has("nvim")
   Plug 'dikiaap/minimalist'
   Plug 'numToStr/Comment.nvim'
   Plug 'folke/tokyonight.nvim'
+  Plug 'neovim/nvim-lspconfig'
+  Plug 'williamboman/nvim-lsp-installer'
+  Plug 'mfussenegger/nvim-jdtls'
+  Plug 'karb94/neoscroll.nvim'
 endif
 
 Plug 'groenewege/vim-less', { 'for': 'less' }

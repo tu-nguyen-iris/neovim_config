@@ -115,7 +115,9 @@ autocmd FileType yaml setlocal shiftwidth=2 tabstop=2
 " Imports "{{{
 " ---------------------------------------------------------------------
 runtime ./plug.vim
+runtime ./vimtreesirter.lua
 runtime ./telescope.lua
+runtime ./neoscroll.lua
 runtime ./terminal.vim
 runtime ./theme.vim
 if has("unix")

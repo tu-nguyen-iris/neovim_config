@@ -8,5 +8,17 @@
     "javascriptreact",
     "typescript.tsx",
     "graphql"
+  ],
+  "codeLens.enable": true,
+  "java.referencesCodeLens.enabled": true,
+  "java.import.gradle.enabled": true,
+  "java.home": "/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home",
+  "java.jdt.ls.vmargs": "-javaagent:/usr/local/share/lombok/lombok.jar",
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-1.8",
+      "path": "/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home",
+      "default": true
+    }
   ]
 }

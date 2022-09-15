@@ -3,6 +3,7 @@ require('telescope').setup{
     file_ignore_patterns = { "node_modules","build","dist" }
   } 
 }
+
 require('Comment').setup{
  ---Add a space b/w comment and the line
     ---@type boolean|fun():boolean
